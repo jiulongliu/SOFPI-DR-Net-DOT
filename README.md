@@ -5,8 +5,7 @@ This repository contains code for the paper  'Learnable Douglas-Rachford Iterati
 The Jacobian matrix and dataset are available at 
 https://www.dropbox.com/sh/0fijlgtlmlm1y45/AAD9gXtxUUlzzXjWyYUjMJbHa?dl=0
 
-
-
+The Jacobian matrix should be put in utility/
 # How to use the code
 ## Training
 
