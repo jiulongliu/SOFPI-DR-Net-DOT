@@ -14,6 +14,6 @@ python ./train_dot_recon.py --images-dataset  dosdata_sim_exp_dataset.mat   --me
 
 ## Testing 
 
-python ./predict_dot_recon.py   --measurements  dosdata_sim_exp_testset.mat --Jacobian-matrix utility/J.mat  --batch-size 128  --inversion-regularize-method D --stages 6 --prediction-parameter net_configs/prediction_dot_D_stg6__ep_300.pth.tar --output-prefix output/all_D_rho10_-1d2i_stg6_
+python ./predict_dot_recon.py   --measurements  dosdata_sim_exp_testset.mat --Jacobian-matrix utility/J.mat  --batch-size 128  --inversion-regularize-method D --stages 6 --prediction-parameter net_configs/prediction_dot_D_stg6_.pth.tar --output-prefix output/all_D_stg6_
 
 
